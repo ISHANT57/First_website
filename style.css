@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding doesn’t affect element width/height */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    color: #333; /* Darker text for contrast */
+}
+
+/* Container to center and limit max width */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjusts for large screens */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title Style */
+.title {
+    text-align: center;
+    color:darkgreen;
+    background-color: white;
+    font-size: 2em; /* Flexible font size */
+    margin-bottom: 15px;
+    padding: 10px; /* Adds some padding around the title */
+    border-radius: 8px;
+}
+
+/* Section Styles */
+.personal-details, 
+.education, 
+.skills, 
+.course-subjects, 
+.course-overview, 
+.topics-covered {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+h2 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Personal Details */
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info {
+    flex: 1;
+}
+
+.info p {
+    margin: 8px 0;
+}
+
+.photo img {
+    border-radius: 70%; /* Makes the image circular */
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+
+/* List Styles */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: red;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+/* Faculty Styles */
+.faculty-photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.faculty-member {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.faculty-member img {
+    border-radius: 50%; /* Makes the image circular */
+    height: 120px; /* Adjust size as needed */
+    width: 120px; /* Adjust size as needed */
+    object-fit: cover; /* Ensures the image covers the circle */
+}
+
+.faculty-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/*FOR MATRIX*/
